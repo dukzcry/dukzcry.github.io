@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>ГЕРО.ИН - Слушаем и скробблим трекерную музыку под никсами</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<meta name="description" content="dukzcry homepage">
+<meta name="Keywords" content="dukzcry">
+</head>
+<body>
+<div class="buttons">
+<a href="../" class="posts/mod.md">Главная</a><a href="../archive.html" class="posts/mod.md">Архив</a><a href="../gallery" class="posts/mod.md">Галерея</a><a href="../pages/about.html" class="last posts/mod.md">О сайте</a>
+</div>
+<div class="header">
+<h1>ГЕРО.ИН</h1>
+одобрено роскомнадзором
+</div>
+<div class="content">
+<p>
+<a href="../posts/mod.html">Слушаем и скробблим трекерную музыку под никсами</a>
+<br />
+22 ноября 2017
+
+    написал dukzcry
+
+</p>
+<blockquote>
+<p>Забудьте про ручное тэгирование модулей в XMPlay ради скробблинга!</p>
+</blockquote>
+<p><a href="https://github.com/dukzcry/crap/tree/master/modplay">Скрипт</a> подходит для прослушивания амижных и писишных трекерных модулей. Используются движки <a href="http://zakalwe.fi/uade/">UADE</a> и <a href="https://lib.openmpt.org/libopenmpt/">libopenmpt</a> От чудесного <a href="http://www.un4seen.com/bass.html">BASS</a> пришлось отказаться по причине небольшого числа поддерживаемых форматов. Впрочем, по заверениям экспертов, libopenmpt очень неплох в плане точности воспроизведения. А еще говорят, что <a href="http://xmp.sourceforge.net/">XMP</a> исправляется.</p>
+<p>Музыку в архивах играть мы тоже могем. А вкупе с curlftpfs и модули качать не надо:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">curlftpfs</span> ftp://ftp.scene.org/pub/music/artists/ ~/Music</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="ex">modplay.sh</span> <span class="st">&quot;4-mat&quot;</span> ~/Music/4-mat/*</span></code></pre></div>
+<p>
+    
+      категории <a title="All pages tagged 'demoscene'." href="../tags/demoscene.html">demoscene</a>, <a title="All pages tagged 'lastfm'." href="../tags/lastfm.html">lastfm</a>, <a title="All pages tagged 'mod'." href="../tags/mod.html">mod</a>, <a title="All pages tagged 'tracker'." href="../tags/tracker.html">tracker</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/mod.md"></span>
+
+<!--
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+this.page.url = 'http://gero.in/posts/mod.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'posts/mod.md'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gero-in.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+-->
+
+
+
+</div>
+<script id="dsq-count-scr" src="//gero-in.disqus.com/count.js" async></script>
+</body>
