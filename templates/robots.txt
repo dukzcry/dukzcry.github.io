@@ -1,0 +1,2 @@
+User-Agent: *
+Sitemap: $host$/sitemap.xml

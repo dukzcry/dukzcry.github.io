@@ -1,7 +1,20 @@
-<ul>
-    $for(posts)$
-        <li>
-            <a href="$url$">$title$</a> - $date$
-        </li>
-    $endfor$
-</ul>
+$for(posts)$
+    $body$
+    $sep$
+    <div class="separator">
+    <span class="alignleft"><span class="background">&#9986;&#xFE0E;</span></span>
+    <span class="aligncenter"><span class="background">&#9986;&#xFE0E;</span></span>
+    <span class="alignright"><span class="background">&#9986;&#xFE0E;</span></span>
+    </div>
+$endfor$
+<br />
+<div class="arrow-left">
+$if(previousPageNum)$
+<a href="$previousPageUrl$">&#9664;&#xFE0E; Новые записи</a>
+$endif$
+<div class="arrow-right">
+$if(nextPageNum)$
+<a href="$nextPageUrl$">Предыдущие записи &#9654;&#xFE0E;</a>
+$endif$
+</div>
+</div>

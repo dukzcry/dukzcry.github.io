@@ -1,8 +1,17 @@
-<div class="info">
-    Posted on $date$
-    $if(author)$
-        by $author$
-    $endif$
-</div>
-
+<p>
+<a href="$url$">$title$</a>
+<br />
+$date$
+$if(author)$
+    написал $author$
+$endif$
+</p>
 $body$
+<p>
+    $if(iftags)$
+      категории $tags$
+    $else$
+      без категорий
+    $endif$
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="$path$"></span>

@@ -1,0 +1,103 @@
+html {
+  -webkit-text-size-adjust: 100%; /* костыль для мобильного хрома */
+}
+
+body {
+  margin: 0; /* выкидываем отступы по умолчанию */
+  background-color: #222222;
+  color: white;
+}
+a {
+  color: white;
+}
+.header, .content {
+  /* добавить отступы слева и справа от содержимого */
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.header {
+  background-color: #005577;
+  padding-top: 0.5em; /* добавить отступ над надписью логотипа */
+  padding-bottom: 0.4em; /* добавить отступ под слоганом логотипа */
+}
+.header h1 {
+  margin-top: 0; /* убрать дефолтный h1 отступ сверху */
+  margin-bottom: 0.3em; /* настроить отступ между лого и слоганом */
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3em;
+  font-weight: normal;
+}
+.content a:hover {
+  background-color: #005577;
+}
+.buttons a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block; /* кнопки блочно-строчные элементы */
+  padding: 0.3em 1em; /* добавил отступы к кнопкам */
+}
+.active {
+  background-color: #005577;
+}
+
+.separator {
+  border-bottom: 1px dashed;
+  line-height: 0.1em;
+  color: gray;
+  font-family: 'Segoe UI Symbol'; /* в ms edge делаем шрифт серым */
+  margin-left: -5%; /* отменяем паддинги контента */
+  margin-right: -5%;
+}
+.background {
+  background-color: #222222;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.alignleft {
+  float: left;
+  text-align: left;
+  width: 33.33333%;
+}
+.aligncenter {
+  float: left;
+  text-align: center;
+  width: 33.33333%;
+}
+.alignright {
+  float: left;
+  text-align: right;
+  width: 33.33333%;
+}
+
+.arrow-left {
+  font-family: serif;
+}
+.arrow-right {
+  font-family: serif;
+  text-align: right;
+  float: right;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+  color: black;
+}
