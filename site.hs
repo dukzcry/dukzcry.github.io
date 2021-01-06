@@ -99,7 +99,7 @@ main = do
     match ("content/*.jpg" .||. "content/*.jpeg" .||. "content/*.png") $ version "thumbnail" $ do
       route . customRoute $ (\x -> replaceExtension x (".thumb" ++ takeExtension x)) . toFilePath
       compile $ loadImage
-        >>= ensureFitCompiler 200 128
+        >>= ensureFitCompiler 300 128
 
     -- Compress CSS into one file.
     match "css/*" $ compile compressCssCompiler
@@ -143,7 +143,7 @@ main = do
     match galleryImages $ version "thumbnail" $ do
       route . customRoute $ (\x -> replaceExtension x (".thumb" ++ takeExtension x)) . toFilePath
       compile $ loadImage
-        >>= ensureFitCompiler 200 128
+        >>= ensureFitCompiler 300 128
     match (fromGlob $ folder ++ "/*/*.md") $ do
         route . customRoute $ (<.> "html") . toFilePath
         compile $ pandocCompiler
