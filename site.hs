@@ -99,7 +99,7 @@ main = do
     match ("content/*.jpg" .||. "content/*.jpeg" .||. "content/*.png") $ version "thumbnail" $ do
       route . customRoute $ (\x -> replaceExtension x (".thumb" ++ takeExtension x)) . toFilePath
       compile $ loadImage
-        >>= ensureFitCompiler 200 72
+        >>= ensureFitCompiler 200 128
 
     -- Compress CSS into one file.
     match "css/*" $ compile compressCssCompiler
@@ -143,7 +143,7 @@ main = do
     match galleryImages $ version "thumbnail" $ do
       route . customRoute $ (\x -> replaceExtension x (".thumb" ++ takeExtension x)) . toFilePath
       compile $ loadImage
-        >>= ensureFitCompiler 200 72
+        >>= ensureFitCompiler 200 128
     match (fromGlob $ folder ++ "/*/*.md") $ do
         route . customRoute $ (<.> "html") . toFilePath
         compile $ pandocCompiler
@@ -328,7 +328,7 @@ galleryField = functionField "gallery" $ \[args] _ ->
   return $ unlines [
     "$for(" ++ args ++ ")$",
     "$if(video)$",
-    "<a href=\"$page$\"><video width=\"128\" height=\"72\" preload=\"metadata\"><source src=\"$url$\"></video></a>",
+    "<a href=\"$page$\"><video width=\"128\" height=\"128\" preload=\"metadata\"><source src=\"$url$\"></video></a>",
     "$else$",
     "<a href=\"$page$\"><img src=\"$thumbnail$\"/></a>",
     "<link rel=\"prefetch\" href=\"$url$\">",
