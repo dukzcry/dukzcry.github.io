@@ -136,7 +136,7 @@ main = do
         route   idRoute
         compile $ loadImage
             >>= ensureFitCompiler 1280 1024
-            >>= compressJpgCompiler 80
+            >>= compressJpgCompiler 90
     match galleryFiles $ do
         route   idRoute
         compile copyFileCompiler
