@@ -1,5 +1,5 @@
 ---
-title: Ацкая смесь индустриальщины и трекерщины
+title: Смесь индустриальщины и трекерщины
 published: 2019-02-16
 tags: demoscene
 author: dukzcry
