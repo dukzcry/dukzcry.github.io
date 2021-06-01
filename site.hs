@@ -193,7 +193,7 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
-    constField "host" "http://gero.in" `mappend`
+    constField "host" "http://dukzcry.github.io" `mappend`
     siteCtx
 
 siteCtx :: Context String
