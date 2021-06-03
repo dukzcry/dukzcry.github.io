@@ -199,7 +199,7 @@ postCtx =
 siteCtx :: Context String
 siteCtx = 
   activeClassField `mappend`
-  constField "sitename" "ГЕРО.ИН" `mappend`
+  constField "sitename" "Duck's Cry" `mappend`
   defaultContext
 -- https://groups.google.com/forum/#!searchin/hakyll/if$20class/hakyll/WGDYRa3Xg-w/nMJZ4KT8OZUJ 
 activeClassField :: Context a 
