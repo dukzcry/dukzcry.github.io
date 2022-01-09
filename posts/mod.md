@@ -1,5 +1,5 @@
 ---
-title: Слушаем и скробблим трекерную музыку под никсами
+title: Слушаем и скробблим трекерную музыку
 published: 2017-11-22
 tags: demoscene, lastfm, mod, tracker
 author: dukzcry
