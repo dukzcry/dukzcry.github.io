@@ -1,0 +1,7 @@
+source-repository-package
+  type: git
+  location: https://github.com/dukzcry/funkshun.git
+  subdir: hakyll-gallery
+  tag: af6f1a5ff8c1ff1343b918cb83d4a53d4ff96e44
+
+packages: .

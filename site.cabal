@@ -8,9 +8,9 @@ executable site
   build-depends:    base == 4.*
                   , hakyll
                   , hakyll-images
+                  , hakyll-gallery
                   , filepath
                   , time
-                  , natural-sort
                   , directory
                   , process
   ghc-options:      -threaded
