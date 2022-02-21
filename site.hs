@@ -113,10 +113,12 @@ main = do
     match "posts/*" $ do
         route $ setExtension "html"
         compile $ do
+          -- here we get listField for all gallery items
           ctx' <- makeGalleryCtx
           let ctx = ctx' `mappend` videoField
           getResourceString
             >>= renderPandoc
+            -- apply twice first $gallery()$ into $for()$ template then $for()$ into html code
             >>= applyAsTemplate ctx
             >>= applyAsTemplate ctx
             >>= loadAndApplyTemplate "templates/post.html"    (postCtxWithTags tags)
