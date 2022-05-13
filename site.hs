@@ -114,7 +114,7 @@ main = do
         route $ setExtension "html"
         compile $ do
           -- here we get listField for all gallery items
-          ctx' <- makeGalleryCtx
+          ctx' <- makeGalleryCtx defaultGallerySettings
           let ctx = ctx' `mappend` videoField
           getResourceString
             >>= renderPandoc
@@ -129,7 +129,7 @@ main = do
 
     match "templates/*" $ compile templateCompiler
 
-    galleryRuleset siteCtx postCtx True
+    galleryRuleset siteCtx postCtx defaultGallerySettings { compressImages = (compressImages defaultGallerySettings) { compress = True }}
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
