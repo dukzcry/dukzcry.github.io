@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Duck's Cry</title>
+        <link>http://dukzcry.github.io</link>
+        <description><![CDATA[персональный хомяк]]></description>
+        <atom:link href="http://dukzcry.github.io/rss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Sat, 16 Nov 2019 00:00:00 UT</lastBuildDate>
+        <item>
+    <title>Берлин</title>
+    <link>http://dukzcry.github.io/posts/berlin.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/berlin.html">Берлин</a>
+<br />
+16 ноября 2019
+
+    написал dukzcry
+
+</p>
+<p>Съездил в Гермашку. Фотоотчет присутствует.</p>
+<p><span class="math inline">
+
+<a href="/gallery/berlin/IMG_20191109_204239.jpg.html"><img src="/gallery/berlin/IMG_20191109_204239.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/berlin/IMG_20191109_204239.jpg">
+
+
+
+<a href="/gallery/berlin/IMG_20191110_123635.jpg.html"><img src="/gallery/berlin/IMG_20191110_123635.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/berlin/IMG_20191110_123635.jpg">
+
+
+
+<a href="/gallery/berlin/IMG_20191110_164656.jpg.html"><img src="/gallery/berlin/IMG_20191110_164656.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/berlin/IMG_20191110_164656.jpg">
+
+
+
+<a href="/gallery/berlin/IMG_20191110_172042.jpg.html"><img src="/gallery/berlin/IMG_20191110_172042.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/berlin/IMG_20191110_172042.jpg">
+
+
+
+<a href="/gallery/berlin/IMG_20191110_174337.jpg.html"><img src="/gallery/berlin/IMG_20191110_174337.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/berlin/IMG_20191110_174337.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/berlin.md"></span>
+]]></description>
+    <pubDate>2019-11-16</pubDate>
+    <guid>http://dukzcry.github.io/posts/berlin.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Верните мне мой 2007</title>
+    <link>http://dukzcry.github.io/posts/2007.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/2007.html">Верните мне мой 2007</a>
+<br />
+16 февраля 2019
+
+    написал dukzcry
+
+</p>
+<p>Да не вопрос, вернул. Теперь этот сайт снова выглядит как в 2007-ом.</p>
+<p>
+    
+      категории <a title="All pages tagged &#39;блог&#39;." href="/tags/%D0%B1%D0%BB%D0%BE%D0%B3.html">блог</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/2007.md"></span>
+]]></description>
+    <pubDate>2019-02-16</pubDate>
+    <guid>http://dukzcry.github.io/posts/2007.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Слушаем и скробблим трекерную музыку</title>
+    <link>http://dukzcry.github.io/posts/mod.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/mod.html">Слушаем и скробблим трекерную музыку</a>
+<br />
+22 ноября 2017
+
+    написал dukzcry
+
+</p>
+<blockquote>
+<p>Забудьте про ручное тэгирование модулей в XMPlay ради скробблинга!</p>
+</blockquote>
+<p><a href="https://github.com/dukzcry/crap/tree/master/modplay">Скрипт</a> подходит для прослушивания амижных и писишных трекерных модулей. Используются движки <a href="http://zakalwe.fi/uade/">UADE</a> и <a href="https://lib.openmpt.org/libopenmpt/">libopenmpt</a> От чудесного <a href="http://www.un4seen.com/bass.html">BASS</a> пришлось отказаться по причине небольшого числа поддерживаемых форматов. Впрочем, по заверениям экспертов, libopenmpt очень неплох в плане точности воспроизведения. А еще говорят, что <a href="http://xmp.sourceforge.net/">XMP</a> исправляется.</p>
+<p>Музыку в архивах играть мы тоже могем. А вкупе с curlftpfs и модули качать не надо:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curlftpfs</span> ftp://ftp.scene.org/pub/music/artists/ ~/Music</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">modplay.sh</span> <span class="st">&quot;4-mat&quot;</span> ~/Music/4-mat/<span class="pp">*</span></span></code></pre></div>
+<p>
+    
+      категории <a title="All pages tagged &#39;demoscene&#39;." href="/tags/demoscene.html">demoscene</a>, <a title="All pages tagged &#39;lastfm&#39;." href="/tags/lastfm.html">lastfm</a>, <a title="All pages tagged &#39;mod&#39;." href="/tags/mod.html">mod</a>, <a title="All pages tagged &#39;tracker&#39;." href="/tags/tracker.html">tracker</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/mod.md"></span>
+]]></description>
+    <pubDate>2017-11-22</pubDate>
+    <guid>http://dukzcry.github.io/posts/mod.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Хорватия</title>
+    <link>http://dukzcry.github.io/posts/croatia.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/croatia.html">Хорватия</a>
+<br />
+22 июля 2008
+
+    написал dukzcry
+
+</p>
+<p><span class="math inline">
+
+<a href="/gallery/croatia/IMG_20210308_0001.jpg.html"><img src="/gallery/croatia/IMG_20210308_0001.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/croatia/IMG_20210308_0001.jpg">
+
+
+
+<a href="/gallery/croatia/IMG_20210308_0002.jpg.html"><img src="/gallery/croatia/IMG_20210308_0002.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/croatia/IMG_20210308_0002.jpg">
+
+
+
+<a href="/gallery/croatia/IMG_20210308_0003.jpg.html"><img src="/gallery/croatia/IMG_20210308_0003.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/croatia/IMG_20210308_0003.jpg">
+
+
+
+<a href="/gallery/croatia/IMG_20210308_0004.jpg.html"><img src="/gallery/croatia/IMG_20210308_0004.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/croatia/IMG_20210308_0004.jpg">
+
+
+
+<a href="/gallery/croatia/IMG_20210308_0005.jpg.html"><img src="/gallery/croatia/IMG_20210308_0005.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/croatia/IMG_20210308_0005.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/croatia.md"></span>
+]]></description>
+    <pubDate>2008-07-22</pubDate>
+    <guid>http://dukzcry.github.io/posts/croatia.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Греция</title>
+    <link>http://dukzcry.github.io/posts/greece.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/greece.html">Греция</a>
+<br />
+ 1 июня 2007
+
+    написал dukzcry
+
+</p>
+<p><span class="math inline">
+
+<a href="/gallery/greece/IMG_20210308_0001.jpg.html"><img src="/gallery/greece/IMG_20210308_0001.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/greece/IMG_20210308_0001.jpg">
+
+
+
+<a href="/gallery/greece/IMG_20210308_0002.jpg.html"><img src="/gallery/greece/IMG_20210308_0002.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/greece/IMG_20210308_0002.jpg">
+
+
+
+<a href="/gallery/greece/IMG_20210308_0003.jpg.html"><img src="/gallery/greece/IMG_20210308_0003.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/greece/IMG_20210308_0003.jpg">
+
+
+
+<a href="/gallery/greece/IMG_20210308_0004.jpg.html"><img src="/gallery/greece/IMG_20210308_0004.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/greece/IMG_20210308_0004.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/greece.md"></span>
+]]></description>
+    <pubDate>2007-06-01</pubDate>
+    <guid>http://dukzcry.github.io/posts/greece.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Карелия</title>
+    <link>http://dukzcry.github.io/posts/karelia.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/karelia.html">Карелия</a>
+<br />
+ 1 июня 2005
+
+    написал dukzcry
+
+</p>
+<p><span class="math inline">
+
+<a href="/gallery/karelia/IMG_20210308_0001.jpg.html"><img src="/gallery/karelia/IMG_20210308_0001.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0001.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0002.jpg.html"><img src="/gallery/karelia/IMG_20210308_0002.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0002.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0003.jpg.html"><img src="/gallery/karelia/IMG_20210308_0003.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0003.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0004.jpg.html"><img src="/gallery/karelia/IMG_20210308_0004.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0004.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0005.jpg.html"><img src="/gallery/karelia/IMG_20210308_0005.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0005.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0006.jpg.html"><img src="/gallery/karelia/IMG_20210308_0006.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0006.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0007.jpg.html"><img src="/gallery/karelia/IMG_20210308_0007.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0007.jpg">
+
+
+
+<a href="/gallery/karelia/IMG_20210308_0008.jpg.html"><img src="/gallery/karelia/IMG_20210308_0008.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/karelia/IMG_20210308_0008.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/karelia.md"></span>
+]]></description>
+    <pubDate>2005-06-01</pubDate>
+    <guid>http://dukzcry.github.io/posts/karelia.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Англия</title>
+    <link>http://dukzcry.github.io/posts/england.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/england.html">Англия</a>
+<br />
+ 1 июня 2003
+
+    написал dukzcry
+
+</p>
+<p><span class="math inline">
+
+<a href="/gallery/england/IMG_20210308_0001.jpg.html"><img src="/gallery/england/IMG_20210308_0001.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/england/IMG_20210308_0001.jpg">
+
+
+
+<a href="/gallery/england/IMG_20210308_0002.jpg.html"><img src="/gallery/england/IMG_20210308_0002.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/england/IMG_20210308_0002.jpg">
+
+
+
+<a href="/gallery/england/IMG_20210308_0003.jpg.html"><img src="/gallery/england/IMG_20210308_0003.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/england/IMG_20210308_0003.jpg">
+
+
+
+<a href="/gallery/england/IMG_20210308_0004.jpg.html"><img src="/gallery/england/IMG_20210308_0004.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/england/IMG_20210308_0004.jpg">
+
+
+
+<a href="/gallery/england/IMG_20210308_0005.jpg.html"><img src="/gallery/england/IMG_20210308_0005.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/england/IMG_20210308_0005.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/england.md"></span>
+]]></description>
+    <pubDate>2003-06-01</pubDate>
+    <guid>http://dukzcry.github.io/posts/england.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
+    <title>Латвия</title>
+    <link>http://dukzcry.github.io/posts/latvia.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/latvia.html">Латвия</a>
+<br />
+ 1 июня 2001
+
+    написал dukzcry
+
+</p>
+<p><span class="math inline">
+
+<a href="/gallery/latvia/IMG_20210308_0001.jpg.html"><img src="/gallery/latvia/IMG_20210308_0001.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/latvia/IMG_20210308_0001.jpg">
+
+
+
+<a href="/gallery/latvia/IMG_20210308_0002.jpg.html"><img src="/gallery/latvia/IMG_20210308_0002.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/latvia/IMG_20210308_0002.jpg">
+
+
+
+<a href="/gallery/latvia/IMG_20210308_0003.jpg.html"><img src="/gallery/latvia/IMG_20210308_0003.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/latvia/IMG_20210308_0003.jpg">
+
+
+
+<a href="/gallery/latvia/IMG_20210308_0004.jpg.html"><img src="/gallery/latvia/IMG_20210308_0004.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/latvia/IMG_20210308_0004.jpg">
+
+
+
+<a href="/gallery/latvia/IMG_20210308_0005.jpg.html"><img src="/gallery/latvia/IMG_20210308_0005.thumb.jpg"/></a>
+<link rel="prefetch" href="/gallery/latvia/IMG_20210308_0005.jpg">
+
+
+</span></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+    
+</p>
+<span class="disqus-comment-count" data-disqus-identifier="posts/latvia.md"></span>
+]]></description>
+    <pubDate>2001-06-01</pubDate>
+    <guid>http://dukzcry.github.io/posts/latvia.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+
+    </channel>
+</rss>
