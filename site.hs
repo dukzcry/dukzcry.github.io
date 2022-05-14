@@ -81,21 +81,9 @@ main = do
            makeItem ""
             >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
 
-    create ["atom.xml"] $ do
-          route idRoute
-          compile $ do
-                let feedCtx = postCtx `mappend` bodyField "description"
-                posts <- recentFirst =<<
-                      loadAllSnapshots "posts/*" "content"
-                renderAtom myFeedConfiguration feedCtx posts
+    createFeed "rss.xml" renderRss
 
-    create ["rss.xml"] $ do
-          route idRoute
-          compile $ do
-                let feedCtx = postCtx `mappend` bodyField "description"
-                posts <- recentFirst =<<
-                      loadAllSnapshots "posts/*" "content"
-                renderRss myFeedConfiguration feedCtx posts
+    createFeed "atom.xml" renderAtom
 
     create ["robots.txt"] $ do
       route idRoute
@@ -176,6 +164,14 @@ myFeedConfiguration = FeedConfiguration
     , feedAuthorEmail = "dukzcry@ya.ru"
     , feedRoot        = siteurl
     }
+
+createFeed name renderingFunction = create [name] $ do
+      route idRoute
+      compile $ do
+          let feedCtx = postCtx `mappend` bodyField "description"
+          posts <- recentFirst =<<
+              loadAllSnapshots "posts/*" "content"
+          renderingFunction myFeedConfiguration feedCtx posts
 
 siteCtx :: Context String
 siteCtx = 
