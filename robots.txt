@@ -1,2 +1,2 @@
 User-Agent: *
-Sitemap: http://dukzcry.github.io/sitemap.xml
+Sitemap: https://dukzcry.github.io/sitemap.xml

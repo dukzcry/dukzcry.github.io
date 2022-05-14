@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Duck's Cry</title>
-    <link href="http://dukzcry.github.io/atom.xml" rel="self" />
-    <link href="http://dukzcry.github.io" />
-    <id>http://dukzcry.github.io/atom.xml</id>
+    <link href="https://dukzcry.github.io/atom.xml" rel="self" />
+    <link href="https://dukzcry.github.io" />
+    <id>https://dukzcry.github.io/atom.xml</id>
     <author>
         <name>Artem Lukyanov</name>
         <email>dukzcry@ya.ru</email>
@@ -11,8 +11,8 @@
     <updated>2019-11-16T00:00:00Z</updated>
     <entry>
     <title>Берлин</title>
-    <link href="http://dukzcry.github.io/posts/berlin.html" />
-    <id>http://dukzcry.github.io/posts/berlin.html</id>
+    <link href="https://dukzcry.github.io/posts/berlin.html" />
+    <id>https://dukzcry.github.io/posts/berlin.html</id>
     <published>2019-11-16</published>
     <updated>2019-11-16T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -61,8 +61,8 @@
 </entry>
 <entry>
     <title>Верните мне мой 2007</title>
-    <link href="http://dukzcry.github.io/posts/2007.html" />
-    <id>http://dukzcry.github.io/posts/2007.html</id>
+    <link href="https://dukzcry.github.io/posts/2007.html" />
+    <id>https://dukzcry.github.io/posts/2007.html</id>
     <published>2019-02-16</published>
     <updated>2019-02-16T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -84,8 +84,8 @@
 </entry>
 <entry>
     <title>Слушаем и скробблим трекерную музыку</title>
-    <link href="http://dukzcry.github.io/posts/mod.html" />
-    <id>http://dukzcry.github.io/posts/mod.html</id>
+    <link href="https://dukzcry.github.io/posts/mod.html" />
+    <id>https://dukzcry.github.io/posts/mod.html</id>
     <published>2017-11-22</published>
     <updated>2017-11-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -113,8 +113,8 @@
 </entry>
 <entry>
     <title>Хорватия</title>
-    <link href="http://dukzcry.github.io/posts/croatia.html" />
-    <id>http://dukzcry.github.io/posts/croatia.html</id>
+    <link href="https://dukzcry.github.io/posts/croatia.html" />
+    <id>https://dukzcry.github.io/posts/croatia.html</id>
     <published>2008-07-22</published>
     <updated>2008-07-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -162,8 +162,8 @@
 </entry>
 <entry>
     <title>Греция</title>
-    <link href="http://dukzcry.github.io/posts/greece.html" />
-    <id>http://dukzcry.github.io/posts/greece.html</id>
+    <link href="https://dukzcry.github.io/posts/greece.html" />
+    <id>https://dukzcry.github.io/posts/greece.html</id>
     <published>2007-06-01</published>
     <updated>2007-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -206,8 +206,8 @@
 </entry>
 <entry>
     <title>Карелия</title>
-    <link href="http://dukzcry.github.io/posts/karelia.html" />
-    <id>http://dukzcry.github.io/posts/karelia.html</id>
+    <link href="https://dukzcry.github.io/posts/karelia.html" />
+    <id>https://dukzcry.github.io/posts/karelia.html</id>
     <published>2005-06-01</published>
     <updated>2005-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -270,8 +270,8 @@
 </entry>
 <entry>
     <title>Англия</title>
-    <link href="http://dukzcry.github.io/posts/england.html" />
-    <id>http://dukzcry.github.io/posts/england.html</id>
+    <link href="https://dukzcry.github.io/posts/england.html" />
+    <id>https://dukzcry.github.io/posts/england.html</id>
     <published>2003-06-01</published>
     <updated>2003-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
@@ -319,8 +319,8 @@
 </entry>
 <entry>
     <title>Латвия</title>
-    <link href="http://dukzcry.github.io/posts/latvia.html" />
-    <id>http://dukzcry.github.io/posts/latvia.html</id>
+    <link href="https://dukzcry.github.io/posts/latvia.html" />
+    <id>https://dukzcry.github.io/posts/latvia.html</id>
     <published>2001-06-01</published>
     <updated>2001-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>

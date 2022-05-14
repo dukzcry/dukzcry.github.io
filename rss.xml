@@ -3,14 +3,14 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>Duck's Cry</title>
-        <link>http://dukzcry.github.io</link>
+        <link>https://dukzcry.github.io</link>
         <description><![CDATA[персональный хомяк]]></description>
-        <atom:link href="http://dukzcry.github.io/rss.xml" rel="self"
+        <atom:link href="https://dukzcry.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
         <lastBuildDate>Sat, 16 Nov 2019 00:00:00 UT</lastBuildDate>
         <item>
     <title>Берлин</title>
-    <link>http://dukzcry.github.io/posts/berlin.html</link>
+    <link>https://dukzcry.github.io/posts/berlin.html</link>
     <description><![CDATA[<p>
 <a href="/posts/berlin.html">Берлин</a>
 <br />
@@ -55,12 +55,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/berlin.md"></span>
 ]]></description>
     <pubDate>2019-11-16</pubDate>
-    <guid>http://dukzcry.github.io/posts/berlin.html</guid>
+    <guid>https://dukzcry.github.io/posts/berlin.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Верните мне мой 2007</title>
-    <link>http://dukzcry.github.io/posts/2007.html</link>
+    <link>https://dukzcry.github.io/posts/2007.html</link>
     <description><![CDATA[<p>
 <a href="/posts/2007.html">Верните мне мой 2007</a>
 <br />
@@ -78,12 +78,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/2007.md"></span>
 ]]></description>
     <pubDate>2019-02-16</pubDate>
-    <guid>http://dukzcry.github.io/posts/2007.html</guid>
+    <guid>https://dukzcry.github.io/posts/2007.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Слушаем и скробблим трекерную музыку</title>
-    <link>http://dukzcry.github.io/posts/mod.html</link>
+    <link>https://dukzcry.github.io/posts/mod.html</link>
     <description><![CDATA[<p>
 <a href="/posts/mod.html">Слушаем и скробблим трекерную музыку</a>
 <br />
@@ -107,12 +107,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/mod.md"></span>
 ]]></description>
     <pubDate>2017-11-22</pubDate>
-    <guid>http://dukzcry.github.io/posts/mod.html</guid>
+    <guid>https://dukzcry.github.io/posts/mod.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Хорватия</title>
-    <link>http://dukzcry.github.io/posts/croatia.html</link>
+    <link>https://dukzcry.github.io/posts/croatia.html</link>
     <description><![CDATA[<p>
 <a href="/posts/croatia.html">Хорватия</a>
 <br />
@@ -156,12 +156,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/croatia.md"></span>
 ]]></description>
     <pubDate>2008-07-22</pubDate>
-    <guid>http://dukzcry.github.io/posts/croatia.html</guid>
+    <guid>https://dukzcry.github.io/posts/croatia.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Греция</title>
-    <link>http://dukzcry.github.io/posts/greece.html</link>
+    <link>https://dukzcry.github.io/posts/greece.html</link>
     <description><![CDATA[<p>
 <a href="/posts/greece.html">Греция</a>
 <br />
@@ -200,12 +200,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/greece.md"></span>
 ]]></description>
     <pubDate>2007-06-01</pubDate>
-    <guid>http://dukzcry.github.io/posts/greece.html</guid>
+    <guid>https://dukzcry.github.io/posts/greece.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Карелия</title>
-    <link>http://dukzcry.github.io/posts/karelia.html</link>
+    <link>https://dukzcry.github.io/posts/karelia.html</link>
     <description><![CDATA[<p>
 <a href="/posts/karelia.html">Карелия</a>
 <br />
@@ -264,12 +264,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/karelia.md"></span>
 ]]></description>
     <pubDate>2005-06-01</pubDate>
-    <guid>http://dukzcry.github.io/posts/karelia.html</guid>
+    <guid>https://dukzcry.github.io/posts/karelia.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Англия</title>
-    <link>http://dukzcry.github.io/posts/england.html</link>
+    <link>https://dukzcry.github.io/posts/england.html</link>
     <description><![CDATA[<p>
 <a href="/posts/england.html">Англия</a>
 <br />
@@ -313,12 +313,12 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/england.md"></span>
 ]]></description>
     <pubDate>2003-06-01</pubDate>
-    <guid>http://dukzcry.github.io/posts/england.html</guid>
+    <guid>https://dukzcry.github.io/posts/england.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 <item>
     <title>Латвия</title>
-    <link>http://dukzcry.github.io/posts/latvia.html</link>
+    <link>https://dukzcry.github.io/posts/latvia.html</link>
     <description><![CDATA[<p>
 <a href="/posts/latvia.html">Латвия</a>
 <br />
@@ -362,7 +362,7 @@
 <span class="disqus-comment-count" data-disqus-identifier="posts/latvia.md"></span>
 ]]></description>
     <pubDate>2001-06-01</pubDate>
-    <guid>http://dukzcry.github.io/posts/latvia.html</guid>
+    <guid>https://dukzcry.github.io/posts/latvia.html</guid>
     <dc:creator>Artem Lukyanov</dc:creator>
 </item>
 
