@@ -118,9 +118,7 @@ main = do
           let ctx = ctx' `mappend` videoField
           getResourceString
             >>= renderPandoc
-            -- apply twice first $gallery()$ into $for()$ template then $for()$ into html code
-            >>= applyAsTemplate ctx
-            >>= applyAsTemplate ctx
+            >>= galleryApplyAsTemplate ctx
             >>= loadAndApplyTemplate "templates/post.html"    (postCtxWithTags tags)
             >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/comment.html" (postCtxWithTags tags)
@@ -129,7 +127,11 @@ main = do
 
     match "templates/*" $ compile templateCompiler
 
-    galleryRuleset siteCtx postCtx defaultGallerySettings { compressImages = (compressImages defaultGallerySettings) { compress = True }}
+    galleryRuleset defaultGallerySettings {
+      compressImages = (compressImages defaultGallerySettings) { compress = True },
+      siteContext = siteCtx,
+      postContext = postCtx
+    }
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
