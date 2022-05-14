@@ -13,6 +13,10 @@ import System.Directory
 import System.Process
 --import Debug.Trace (traceShowId)
 
+sitename = "Duck's Cry"
+siteurl = "http://dukzcry.github.io"
+sitedescription = "персональный хомяк"
+
 --------------------------------------------------------------------------------
 main :: IO ()
 main = do
@@ -76,6 +80,22 @@ main = do
                     siteCtx
            makeItem ""
             >>= loadAndApplyTemplate "templates/sitemap.xml" sitemapCtx
+
+    create ["atom.xml"] $ do
+          route idRoute
+          compile $ do
+                let feedCtx = postCtx `mappend` bodyField "description"
+                posts <- recentFirst =<<
+                      loadAllSnapshots "posts/*" "content"
+                renderAtom myFeedConfiguration feedCtx posts
+
+    create ["rss.xml"] $ do
+          route idRoute
+          compile $ do
+                let feedCtx = postCtx `mappend` bodyField "description"
+                posts <- recentFirst =<<
+                      loadAllSnapshots "posts/*" "content"
+                renderRss myFeedConfiguration feedCtx posts
 
     create ["robots.txt"] $ do
       route idRoute
@@ -145,13 +165,23 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
-    constField "host" "http://dukzcry.github.io" `mappend`
+    constField "host" siteurl `mappend`
     siteCtx
+
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = sitename
+    , feedDescription = sitedescription
+    , feedAuthorName  = "Artem Lukyanov"
+    , feedAuthorEmail = "dukzcry@ya.ru"
+    , feedRoot        = siteurl
+    }
 
 siteCtx :: Context String
 siteCtx = 
   activeClassField `mappend`
-  constField "sitename" "Duck's Cry" `mappend`
+  constField "sitename" sitename `mappend`
+  constField "sitedescription" sitedescription `mappend`
   defaultContext
 -- https://groups.google.com/forum/#!searchin/hakyll/if$20class/hakyll/WGDYRa3Xg-w/nMJZ4KT8OZUJ 
 activeClassField :: Context a 
