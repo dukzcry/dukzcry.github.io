@@ -2,8 +2,7 @@ _cache
 _site
 flake.*
 result
-dist
-dist-newstyle
+dist*
 site
 site.exe
 site.hi
