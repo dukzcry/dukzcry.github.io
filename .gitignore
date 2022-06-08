@@ -1,9 +1,9 @@
 _cache
 _site
+default.nix
 flake.*
 result
 dist*
-site
-site.exe
-site.hi
-site.o
+site*
+!site.cabal
+!site.hs
