@@ -4,11 +4,34 @@
     <channel>
         <title>Duck's Cry</title>
         <link>https://dukzcry.github.io</link>
-        <description><![CDATA[Утки - ууу]]></description>
+        <description><![CDATA[персональный хомяк]]></description>
         <atom:link href="https://dukzcry.github.io/rss.xml" rel="self"
                    type="application/rss+xml" />
-        <lastBuildDate>Sat, 16 Nov 2019 00:00:00 UT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Mar 2023 00:00:00 UT</lastBuildDate>
         <item>
+    <title>тест</title>
+    <link>https://dukzcry.github.io/posts/test.html</link>
+    <description><![CDATA[<p>
+<a href="/posts/test.html">тест</a>
+<br />
+28 марта 2023
+
+    написал dukzcry
+
+</p>
+<p>test</p>
+<p>
+    
+      без категорий
+    
+    <span class="disqus-comment-count" data-disqus-identifier="posts/test.md"></span>
+</p>
+]]></description>
+    <pubDate>2023-03-28</pubDate>
+    <guid>https://dukzcry.github.io/posts/test.html</guid>
+    <dc:creator>Artem Lukyanov</dc:creator>
+</item>
+<item>
     <title>Германия</title>
     <link>https://dukzcry.github.io/posts/germany.html</link>
     <description><![CDATA[<p>
