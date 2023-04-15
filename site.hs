@@ -15,7 +15,7 @@ import System.Process
 
 sitename = "Duck's Cry"
 siteurl = "https://dukzcry.github.io"
-sitedescription = "Утки, ууу!"
+sitedescription = "Утки, у-у-у!"
 
 --------------------------------------------------------------------------------
 main :: IO ()
