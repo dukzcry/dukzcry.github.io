@@ -6,9 +6,9 @@ title: Поделки
 
 - [Генератор невозможных фигур][def] на языке Curry
 - [Баунсер для Jabber][def11] на языке Erlang
-- [Брутфорс для ExtremeWare][def2] на языке Erlang
+- [Брутфорс для ОС ExtremeWare][def2] на языке Erlang
 - [Библиотека для реализации галерей][def8] для движка Hakyll на языке Haskell
-- [Шлюз для IPX в DOSBox][def9] на Lisp Flavoured Erlang
+- [Шлюз для IPX в DOSBox][def9] на языке Lisp Flavoured Erlang
 - Драйверы
     - для macOS
         - [Драйвер SMBus][def3] для материнских плат Intel
@@ -23,7 +23,7 @@ title: Поделки
 - Недоделки
     - [Игрушечный процессор][def5] на языке Prolog
     - [Драйвер для сканера отпечатков][def6] для ОС Haiku
-    - [Демонстрация метода бросания лучей][def12] на Erlang
+    - [Демонстрация метода бросания лучей][def12] на языке Erlang
 
 [def]: https://github.com/dukzcry/toys/tree/master/impart
 [def3]: https://github.com/dukzcry/osx-goodies/tree/master/ic
