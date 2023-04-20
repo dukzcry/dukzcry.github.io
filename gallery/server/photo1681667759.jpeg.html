@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Duck's Cry - photo1681667759</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../../style.css" />
+
+
+<link rel="preload" as="image" href="../../gallery/server/photo1681667758.jpeg">
+
+
+
+
+
+
+<style>
+p {
+  margin: 0;
+}
+
+#container {
+  height: 100vh;
+}
+#container-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#container-text {
+  font-size: 2em;
+}
+
+.arrow-left2 {
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+}
+.arrow-right2 {
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+}
+.arrow-down {
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+.cross {
+  font-size: 30px;
+  line-height: 30px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.link a {
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+<span class="link cross"><a href="../../gallery" id="baseurl">❌</a></span>
+
+<span class="link arrow-left2"><a href="../../gallery/server/photo1681667758.jpeg.html" id="prevpage">◀</a></span>
+
+
+<div id="container">
+
+<img id="container-img" src="../../gallery/server/photo1681667759.jpeg">
+
+<div id="container-text">
+
+<span class="arrow-down">⇣</span>
+</div>
+</div>
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+this.page.url = 'https://dukzcry.github.io/gallery/server/photo1681667759.jpeg';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'gallery/server/photo1681667759.jpeg'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://dukzcry.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+<script id="dsq-count-scr" src="//dukzcry.disqus.com/count.js" async></script>
+</body>
+<script type="text/javascript">
+function resizeImage() {
+  var containerHeight = document.getElementById('container').clientHeight;
+  var textHeight = document.getElementById('container-text').clientHeight;
+  var imageHeight = containerHeight - textHeight;
+  var image = document.getElementById('container-img');
+  image.style.height = imageHeight + "px";
+}
+resizeImage();
+window.addEventListener("resize", resizeImage, false);
+
+window.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented) {
+    return; // Do nothing if the event was already processed
+  }
+
+  switch (event.key) {
+
+    case "Left": // IE/Edge specific value
+    case "ArrowLeft":
+    case "a":
+window.location = document.getElementById('prevpage').href;
+      break;
+
+
+    case "Esc": // IE/Edge specific value
+    case "Escape":
+window.location = document.getElementById('baseurl').href;
+      break;
+    default:
+      return; // Quit when this doesn't handle the key event.
+  }
+
+  // Cancel the default action to avoid it being handled twice
+  event.preventDefault();
+}, true);
+</script>

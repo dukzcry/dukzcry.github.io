@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Duck's Cry - Собираем домашний сервер</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<link rel="alternate" type="application/rss+xml" title="Утки, у-у-у!" href="./rss.xml">
+<link rel="alternate" type="application/atom+xml" title="Утки, у-у-у!" href="./atom.xml">
+<meta name="description" content="dukzcry homepage">
+<meta name="Keywords" content="dukzcry">
+</head>
+<body>
+<div class="buttons">
+<a href="../" class="posts/server.md">Главная</a><a href="../pages/software.html" class="last posts/server.md">Поделки</a><a href="../gallery" class="posts/server.md">Галерея</a><a href="../archive.html" class="posts/server.md">Архив</a><a href="../pages/about.html" class="last posts/server.md">О сайте</a>
+</div>
+<div class="header">
+<h1>Duck's Cry</h1>
+Утки, у-у-у!
+</div>
+<div class="content">
+<p>
+<a href="../posts/server.html">Собираем домашний сервер</a>
+<br />
+17 сентября 2021
+
+    написал dukzcry
+
+</p>
+<p>Понадобилось собрать домашний сервер для различных гедонистических целей. Как можно заметить на фото ниже, данный сервер и сопутствующие причиндалы уютно разместились на бабушкиной антресоли:</p>
+<p><span class="math inline">
+
+<a href="../gallery/server/photo1681667758.jpeg.html"><img src="../gallery/server/photo1681667758.thumb.jpeg" /></a>
+<link rel="prefetch" href="../gallery/server/photo1681667758.jpeg">
+
+
+
+<a href="../gallery/server/photo1681667759.jpeg.html"><img src="../gallery/server/photo1681667759.thumb.jpeg" /></a>
+<link rel="prefetch" href="../gallery/server/photo1681667759.jpeg">
+
+
+</span></p>
+<p>В качестве компонентов были выбраны следующие железки:</p>
+<ul>
+<li>Платформа ASRock DeskMini X300. Подкупили форм-фактор Mini-STX и возможности расширения: 1 укороченный и 2 полноразмерных слота M.2, а также 2 отсека для 2.5” дисков</li>
+<li>Процессор AMD Ryzen 5 3400G, пока устраивает</li>
+<li>16 Гб ОЗУ от Kingston, пока хватает</li>
+<li>256 Гб Samsung PM961 SSD под систему, вынул из своего ноута, пока работает</li>
+<li>2 Тб винт от Western Digital под данные, поскольку нет требования к скорости диска. В дальнейшем планируется по необходимости наращивать количество накопителей</li>
+</ul>
+<p>Из сопутствующего:</p>
+<ul>
+<li>Трофейный ИБП Ippon Back Power Pro LCD 600, аккумулятор пришлось менять</li>
+<li>Старый принтер Xerox Phaser 3116, он же Samsung ML-1520. Родителям купил новый беспроводной принтер, а себе забрал старичка</li>
+</ul>
+<p>Наиболее затруднительным моментом стал подбор Wi-FI адаптеров для работы в режиме точки доступа. Для сети стандарта 802.11n для поддержки устаревших устройств выбор пал на дешёвый USB-свисток с Ali на чипе AR9271 поддерживаемый старым добрым драйвером ath9k, граалем всех борцов за свободное ПО. Для более современной сети, соотнеся цену на работоспособность предложений на рынке, я выбрал адаптер QCA6174 формата M.2 поддерживаемый богомерзким драйвером ath10k. Дело на самом деле вовсе не в драйвере, а в закрытой прошивке. Данный адаптер за 500р развивает ту же цифру скорости в 500 Мбит/с. К сожалению стандарт лишь 802.11ac, и более высокие скорости ему не снились. Но этого более-менее достаточно для стриминга игр и кино на телик и проектор. Я пробовал более современный адаптер 802.11ax MT7921, встроенный в материнку моего настольного компа, но к сожалению в режиме работы 802.11ac он показал намного меньшие скорости, нежели QCA6174, да и по деньгам он будет дороже.<br />
+Но просто установить адаптер оказалось недостаточным, пришлось ещё обойти некие региональные ограничения для работы адаптера в режиме точки в диапазоне пятигигагерцовых сетей. К счастью, для драйвера ath10k у проекта OpenWRT оказался патч снимающий данные региональные ограничения. Патч так же доступен через опцию <code>networking.wireless.athUserRegulatoryDomain</code> в дистрибутиве NixOS, который я использую.<br />
+Зачем вообще реализовывать программные точки доступа? Для удобства гибкого руления ими через единый конфиг NixOS’а. Ну и просто потому что собирать свой зюзероутер это просто дань хорошей старой традиции линуксоидов.</p>
+<p>Небольшой вишенкой на торте стала HDMI-затычка с Ali, эмулирующая присутствие монитора. Это полезно как для иксов, так и для вялого чтобы стримить десктоп без использования программых костылей. Пусть лучше будет костыль аппаратный.</p>
+<p>Далее перечислены задачи, которые в данный момент решает сервер. Поскольку я использую любимицу девопсов и функциональных программистов NixOS, под некоторыми пунктами буду делиться своими полезными модулями для NixOS, реализующими соответствующий функционал:</p>
+<ul>
+<li>Роутер и Wi-Fi точка доступа<br />
+<a href="https://github.com/repos-holder/nur-packages/tree/master/modules/hostapd">hostapd</a>. Модуль позволяет создать N точек доступа на hostapd в дополнение к основной</li>
+<li>Обход РКН<br />
+<a href="https://github.com/repos-holder/nur-packages/blob/master/modules/rkn.nix">rkn</a>. Модуль реализует обход ограничений роскомпозора. Используемое ПО nginx и dnsmasq</li>
+<li>Файлопомойка</li>
+<li>Торрент-клиент</li>
+<li>Медиа-сервер</li>
+<li>Виртуализация. <em>Не особо актуально, поскольку на основном компе под это дело памяти и процессорной мощи в разы больше</em></li>
+<li>Стриминг игр на другие устройства<br />
+<a href="https://github.com/repos-holder/nur-packages/blob/master/modules/headless.nix">headless</a>. Модуль реализует «безголовый» графический сервер для стриминга<br />
+<a href="https://github.com/repos-holder/nur-packages/blob/master/modules/sunshine.nix">sunshine</a>. Модуль для правильной установки ПО для стриминга игр Sunshine, работающего по протоколу Moonlight. На клиент, например телевизор устанавливаем соответствующий Android клиент</li>
+<li>Мониторинг</li>
+<li>VPN<br />
+<a href="https://github.com/repos-holder/nur-packages/blob/master/modules/edgevpn.nix">edgevpn</a>. Модуль реализующий VPN сервер или клиент на базе библиотеки libp2p. Не требует публичного IP адреса или систем авторизации от третьих лиц</li>
+<li>Git</li>
+<li>Синхронизация файлов</li>
+<li>Веб-панель<br />
+<a href="https://github.com/repos-holder/nur-packages/blob/master/modules/cockpit.nix">cockpit</a>. Редхатовский современный webmin</li>
+<li><del>Сборочная ферма</del>. Данный функционал перенёс на основной комп</li>
+<li>Принт-сервер</li>
+<li><del>Блокировщик рекламы</del>. По результатам оказалось, что это правильнее делать на клиентах</li>
+</ul>
+<p>
+    
+      категории <a title="All pages tagged 'сервер'." href="../tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80.html">сервер</a>, <a title="All pages tagged 'nixos'." href="../tags/nixos.html">nixos</a>, <a title="All pages tagged 'linux'." href="../tags/linux.html">linux</a>
+    
+    <span class="disqus-comment-count" data-disqus-identifier="posts/server.md"></span>
+</p>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+var disqus_config = function () {
+this.page.url = 'https://dukzcry.github.io/posts/server.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'posts/server.md'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://dukzcry.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+</div>
+<script id="dsq-count-scr" src="//dukzcry.disqus.com/count.js" async></script>
+</body>
