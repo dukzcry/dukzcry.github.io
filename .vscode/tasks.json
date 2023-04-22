@@ -1,0 +1,58 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Движок",
+            "type": "shell",
+            "command": "cabal install --installdir=. --overwrite-policy=always",
+            "problemMatcher": [],
+        },
+        {
+            "label": "Собрать",
+            "type": "shell",
+            "command": "./site build",
+            "windows": {
+                "command": "site.exe build"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Запустить",
+            "type": "shell",
+            "command": "./site watch",
+            "problemMatcher": [],
+            "windows": {
+                "command": "site.exe watch"
+            }
+        },
+        {
+            "label": "Открыть",
+            "type": "shell",
+            "command": "xdg-open http://localhost:8000",
+            "problemMatcher": [],
+            "windows": {
+                "command": "rundll32 url.dll,FileProtocolHandler http://localhost:8000"
+            }
+        },
+        {
+            "label": "Предпросмотр",
+            "dependsOn": ["Запустить", "Открыть"],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Разместить",
+            "type": "shell",
+            "command": "./site deploy",
+            "problemMatcher": [],
+            "windows": {
+                "command": "site.exe deploy"
+            }
+        }
+    ]
+}
