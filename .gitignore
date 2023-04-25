@@ -7,3 +7,4 @@ dist*
 site*
 !site.cabal
 !site.hs
+.vscode
