@@ -1,6 +1,6 @@
 ---
 title: Карелия
-published: 2005-06-01
+published: 01.06.2005
 tags: путешествия
 author: dukzcry
 ---

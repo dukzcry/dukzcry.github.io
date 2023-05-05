@@ -1,6 +1,6 @@
 ---
 title: Греция
-published: 2007-06-01
+published: 01.06.2007
 tags: путешествия
 author: dukzcry
 ---

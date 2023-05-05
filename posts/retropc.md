@@ -1,6 +1,6 @@
 ---
 title: Дачный ретрокомп
-published: 2021-07-19
+published: 19.07.2021
 tags: ретрокомпьютер, slot1
 author: dukzcry
 ---

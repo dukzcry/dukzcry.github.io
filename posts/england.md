@@ -1,6 +1,6 @@
 ---
 title: Англия
-published: 2003-06-01
+published: 01.06.2003
 tags: путешествия
 author: dukzcry
 ---

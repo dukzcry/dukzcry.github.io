@@ -1,6 +1,6 @@
 ---
 title: Книги которые взорвали мозг
-published: 2021-01-18
+published: 18.01.2021
 tags: книги
 author: dukzcry
 ---

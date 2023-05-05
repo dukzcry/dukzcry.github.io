@@ -1,6 +1,6 @@
 ---
 title: Собираем домашний сервер
-published: 2021-09-17
+published: 17.09.2021
 tags: сервер, nixos, linux
 author: dukzcry
 ---

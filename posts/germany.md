@@ -1,6 +1,6 @@
 ---
 title: Германия
-published: 2019-11-16
+published: 16.11.2019
 tags: путешествия
 author: dukzcry
 ---

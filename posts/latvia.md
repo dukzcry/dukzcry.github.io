@@ -1,6 +1,6 @@
 ---
 title: Латвия
-published: 2001-06-01
+published: 01.06.2001
 tags: путешествия
 author: dukzcry
 ---

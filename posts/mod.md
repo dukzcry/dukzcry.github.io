@@ -1,6 +1,6 @@
 ---
 title: Слушаем и скробблим трекерную музыку
-published: 2017-11-22
+published: 22.11.2017
 tags: demoscene, lastfm, mod, tracker
 author: dukzcry
 ---

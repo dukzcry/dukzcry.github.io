@@ -1,6 +1,6 @@
 ---
 title: Хорватия
-published: 2008-07-22
+published: 22.07.2008
 tags: путешествия
 author: dukzcry
 ---
