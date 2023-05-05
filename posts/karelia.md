@@ -5,4 +5,4 @@ tags: путешествия
 author: dukzcry
 ---
 
-$gallery("kareliapreview")$
+$gallery("karelia")$

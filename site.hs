@@ -136,7 +136,7 @@ main = do
     match "templates/*" $ compile templateCompiler
 
     galleryRuleset defaultGallerySettings {
-      compressImages = (compressImages defaultGallerySettings) { compress = True },
+      --compressImages = (compressImages defaultGallerySettings) { compress = True },
       siteContext = siteCtx,
       postContext = postCtx
     }
