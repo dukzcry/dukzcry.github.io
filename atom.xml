@@ -6,14 +6,16 @@
     <id>https://dukzcry.github.io/atom.xml</id>
     <author>
         <name>Artem Lukyanov</name>
+        
         <email>dukzcry@ya.ru</email>
+        
     </author>
     <updated>2021-09-17T00:00:00Z</updated>
     <entry>
     <title>Собираем домашний сервер</title>
     <link href="https://dukzcry.github.io/posts/server.html" />
     <id>https://dukzcry.github.io/posts/server.html</id>
-    <published>2021-09-17</published>
+    <published>17.09.2021</published>
     <updated>2021-09-17T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/server.html">Собираем домашний сервер</a>
@@ -80,7 +82,7 @@
 </ul>
 <p>
     
-      категории <a title="All pages tagged &#39;сервер&#39;." href="/tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80.html">сервер</a>, <a title="All pages tagged &#39;nixos&#39;." href="/tags/nixos.html">nixos</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux.html">linux</a>
+      категории <a title="All pages tagged &#39;сервер&#39;." href="/tags/%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80.html" rel="tag">сервер</a>, <a title="All pages tagged &#39;nixos&#39;." href="/tags/nixos.html" rel="tag">nixos</a>, <a title="All pages tagged &#39;linux&#39;." href="/tags/linux.html" rel="tag">linux</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/server.md"></span>
 </p>
@@ -90,7 +92,7 @@
     <title>Дачный ретрокомп</title>
     <link href="https://dukzcry.github.io/posts/retropc.html" />
     <id>https://dukzcry.github.io/posts/retropc.html</id>
-    <published>2021-07-19</published>
+    <published>19.07.2021</published>
     <updated>2021-07-19T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/retropc.html">Дачный ретрокомп</a>
@@ -152,7 +154,7 @@
 </ul>
 <p>
     
-      категории <a title="All pages tagged &#39;ретрокомпьютер&#39;." href="/tags/%D1%80%D0%B5%D1%82%D1%80%D0%BE%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80.html">ретрокомпьютер</a>, <a title="All pages tagged &#39;slot1&#39;." href="/tags/slot1.html">slot1</a>
+      категории <a title="All pages tagged &#39;ретрокомпьютер&#39;." href="/tags/%D1%80%D0%B5%D1%82%D1%80%D0%BE%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80.html" rel="tag">ретрокомпьютер</a>, <a title="All pages tagged &#39;slot1&#39;." href="/tags/slot1.html" rel="tag">slot1</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/retropc.md"></span>
 </p>
@@ -162,7 +164,7 @@
     <title>Книги которые взорвали мозг</title>
     <link href="https://dukzcry.github.io/posts/books.html" />
     <id>https://dukzcry.github.io/posts/books.html</id>
-    <published>2021-01-18</published>
+    <published>18.01.2021</published>
     <updated>2021-01-18T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/books.html">Книги которые взорвали мозг</a>
@@ -184,7 +186,7 @@
 </ul>
 <p>
     
-      категории <a title="All pages tagged &#39;книги&#39;." href="/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8.html">книги</a>
+      категории <a title="All pages tagged &#39;книги&#39;." href="/tags/%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8.html" rel="tag">книги</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/books.md"></span>
 </p>
@@ -194,7 +196,7 @@
     <title>Германия</title>
     <link href="https://dukzcry.github.io/posts/germany.html" />
     <id>https://dukzcry.github.io/posts/germany.html</id>
-    <published>2019-11-16</published>
+    <published>16.11.2019</published>
     <updated>2019-11-16T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/germany.html">Германия</a>
@@ -234,7 +236,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/germany.md"></span>
 </p>
@@ -244,7 +246,7 @@
     <title>Слушаем и скробблим трекерную музыку</title>
     <link href="https://dukzcry.github.io/posts/mod.html" />
     <id>https://dukzcry.github.io/posts/mod.html</id>
-    <published>2017-11-22</published>
+    <published>22.11.2017</published>
     <updated>2017-11-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/mod.html">Слушаем и скробблим трекерную музыку</a>
@@ -263,7 +265,7 @@
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">modplay.sh</span> <span class="st">&quot;4-mat&quot;</span> ~/Music/4-mat/<span class="pp">*</span></span></code></pre></div>
 <p>
     
-      категории <a title="All pages tagged &#39;demoscene&#39;." href="/tags/demoscene.html">demoscene</a>, <a title="All pages tagged &#39;lastfm&#39;." href="/tags/lastfm.html">lastfm</a>, <a title="All pages tagged &#39;mod&#39;." href="/tags/mod.html">mod</a>, <a title="All pages tagged &#39;tracker&#39;." href="/tags/tracker.html">tracker</a>
+      категории <a title="All pages tagged &#39;demoscene&#39;." href="/tags/demoscene.html" rel="tag">demoscene</a>, <a title="All pages tagged &#39;lastfm&#39;." href="/tags/lastfm.html" rel="tag">lastfm</a>, <a title="All pages tagged &#39;mod&#39;." href="/tags/mod.html" rel="tag">mod</a>, <a title="All pages tagged &#39;tracker&#39;." href="/tags/tracker.html" rel="tag">tracker</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/mod.md"></span>
 </p>
@@ -273,7 +275,7 @@
     <title>Хорватия</title>
     <link href="https://dukzcry.github.io/posts/croatia.html" />
     <id>https://dukzcry.github.io/posts/croatia.html</id>
-    <published>2008-07-22</published>
+    <published>22.07.2008</published>
     <updated>2008-07-22T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/croatia.html">Хорватия</a>
@@ -312,7 +314,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/croatia.md"></span>
 </p>
@@ -322,7 +324,7 @@
     <title>Греция</title>
     <link href="https://dukzcry.github.io/posts/greece.html" />
     <id>https://dukzcry.github.io/posts/greece.html</id>
-    <published>2007-06-01</published>
+    <published>01.06.2007</published>
     <updated>2007-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/greece.html">Греция</a>
@@ -356,7 +358,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/greece.md"></span>
 </p>
@@ -366,7 +368,7 @@
     <title>Карелия</title>
     <link href="https://dukzcry.github.io/posts/karelia.html" />
     <id>https://dukzcry.github.io/posts/karelia.html</id>
-    <published>2005-06-01</published>
+    <published>01.06.2005</published>
     <updated>2005-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/karelia.html">Карелия</a>
@@ -405,7 +407,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/karelia.md"></span>
 </p>
@@ -415,7 +417,7 @@
     <title>Англия</title>
     <link href="https://dukzcry.github.io/posts/england.html" />
     <id>https://dukzcry.github.io/posts/england.html</id>
-    <published>2003-06-01</published>
+    <published>01.06.2003</published>
     <updated>2003-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/england.html">Англия</a>
@@ -454,7 +456,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/england.md"></span>
 </p>
@@ -464,7 +466,7 @@
     <title>Латвия</title>
     <link href="https://dukzcry.github.io/posts/latvia.html" />
     <id>https://dukzcry.github.io/posts/latvia.html</id>
-    <published>2001-06-01</published>
+    <published>01.06.2001</published>
     <updated>2001-06-01T00:00:00Z</updated>
     <summary type="html"><![CDATA[<p>
 <a href="/posts/latvia.html">Латвия</a>
@@ -503,7 +505,7 @@
 </span></p>
 <p>
     
-      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html">путешествия</a>
+      категории <a title="All pages tagged &#39;путешествия&#39;." href="/tags/%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B8%D1%8F.html" rel="tag">путешествия</a>
     
     <span class="disqus-comment-count" data-disqus-identifier="posts/latvia.md"></span>
 </p>
