@@ -40,7 +40,7 @@ $gallery("server")$
 - Виртуализация. _Не особо актуально, поскольку на основном компе под это дело памяти и процессорной мощи в разы больше_
 - Стриминг игр на другие устройства  
 [headless](https://github.com/repos-holder/nur-packages/blob/master/modules/headless.nix). Модуль реализует «безголовый» графический сервер   
-[sunshine](https://github.com/repos-holder/nur-packages/blob/master/modules/sunshine.nix). Модуль для правильной установки ПО Sunshine. На клиент, например телевизор, устанавливаем клиент Moonlight
+[sunshine](https://github.com/repos-holder/nur-packages/blob/master/modules/sunshine.nix). Модуль для правильной установки ПО Sunshine. На клиент, например телевизор, устанавливаем приложение Moonlight
 - Мониторинг
 - VPN  
 [edgevpn](https://github.com/repos-holder/nur-packages/blob/master/modules/edgevpn.nix). Модуль, реализующий VPN сервер и клиент. Не требует публичного IP адреса
