@@ -75,6 +75,7 @@ a {
 
 .arrow-left {
   font-family: serif;
+  margin-bottom: 2em; /* отступ между навигационными ссылками и концом страницы */
 }
 .arrow-right {
   font-family: serif;
