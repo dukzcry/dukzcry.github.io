@@ -153,14 +153,7 @@ postCtx =
         ("ноября","нбр"), ("декабря","дек")
       ]
     }) "date" "%e %B %Y" `mappend`
-    newPathField "path" `mappend`
     siteCtx
--- windows workaround
-newPathField = mapContext normalizePath . pathField
-normalizePath :: String -> String
-normalizePath = map f
-    where f '\\' = '/'
-          f x = x
 
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
@@ -185,11 +178,18 @@ siteCtx =
   constField "sitename" sitename `mappend`
   constField "sitedescription" sitedescription `mappend`
   constField "host" siteurl `mappend`
+  newPathField "path" `mappend`
   defaultContext
+-- windows workaround
+newPathField = mapContext normalizePath . pathField
+normalizePath :: String -> String
+normalizePath = map f
+    where f '\\' = '/'
+          f x = x
 -- https://groups.google.com/forum/#!searchin/hakyll/if$20class/hakyll/WGDYRa3Xg-w/nMJZ4KT8OZUJ 
 activeClassField :: Context a 
 activeClassField = functionField "activeClass" $ \[p] _ -> do 
-  path <- toFilePath <$> getUnderlying
+  path <- normalizePath . toFilePath <$> getUnderlying
   return $ if path == p then "active" else path
 
 sitemapCtx' =
