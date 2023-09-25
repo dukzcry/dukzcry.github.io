@@ -10,8 +10,31 @@
         <email>dukzcry@ya.ru</email>
         
     </author>
-    <updated>2023-05-11T00:00:00Z</updated>
+    <updated>2023-09-25T00:00:00Z</updated>
     <entry>
+    <title>Переезд</title>
+    <link href="https://dukzcry.github.io/posts/migration.html" />
+    <id>https://dukzcry.github.io/posts/migration.html</id>
+    <published>25.09.2023</published>
+    <updated>2023-09-25T00:00:00Z</updated>
+    <summary type="html"><![CDATA[<p>
+<a href="/posts/migration.html">Переезд</a>
+<br />
+25 сентября 2023
+
+    написал dukzcry
+
+</p>
+<p>Теперь сайт будет по адресу <a href="https://dukzcry.gitlab.io" class="uri">https://dukzcry.gitlab.io</a> из-за принудиловки с <a href="https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/about-mandatory-two-factor-authentication">2FA</a></p>
+<p>
+    
+      категории <a title="All pages tagged &#39;сайт&#39;." href="/tags/%D1%81%D0%B0%D0%B9%D1%82.html" rel="tag">сайт</a>
+    
+    <span class="disqus-comment-count" data-disqus-identifier="posts/migration.md"></span>
+</p>
+]]></summary>
+</entry>
+<entry>
     <title>Ретрокомпьютер мечты)</title>
     <link href="https://dukzcry.github.io/posts/tomato.html" />
     <id>https://dukzcry.github.io/posts/tomato.html</id>
